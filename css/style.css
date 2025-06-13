@@ -82,10 +82,12 @@ p {
    font-size: 65px;
    margin-right: 5px;
    margin-top: -10px;
+   height: 81.5px;
 }
 
 #previous-number {
    font-size: 27px;
    margin-right: 8px;
    font-weight: 500;
+   height: 34px;
 }
