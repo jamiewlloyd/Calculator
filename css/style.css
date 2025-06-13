@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&family=Roboto:wght@400;700&display=swap');
+
 body {
-   background-color: #656565;
-   font-size: 30px;
-   font-weight: bold;
-   font-family: 'Courier New', Courier, monospace;
+   background: radial-gradient(#00E6D2, #380A66);
+   background: linear-gradient(0deg, #380A66 0%, #00E6D2 100%);
+   font-size: 35px;
+   font-family: 'Quicksand', 'Roboto', sans-serif;
+   font-weight: 700;
+   margin: 0;
+}
+
+img {
+   max-width: 1000px;
 }
 
 #main-wrapper {
@@ -11,24 +19,27 @@ body {
    display: grid;
    justify-content: center;
    align-items: center;
+   grid-template-rows: 450px auto;
 }
 
 #calculator-body {
-   height: 610px;
+   height: 600px;
    width: 400px;
-   background-color: rgb(45, 45, 45);
-   border-radius: 20px;
+   background: #e8e8e8;
+   background: linear-gradient(0deg, #bfc9d9 0%, #e8e8e8 50%, #ced4e0 100%);
+   border-radius: 5px;
    display: grid;
    justify-content: center;
    align-items: center;
    grid-template-rows: 120px auto;
+   margin: 0 auto;
 }
 
 #screen-area {
    height: 90px;
    width: 370px;
    border-radius: 18px;
-   padding-top: 10px;
+   padding-top: 8px;
 }
 
 #btn-layout {
@@ -45,33 +56,36 @@ body {
    align-items: center;
    height: 80px;
    width: 80px;
-   border-radius: 50%;
+   border-radius: 5px;
    margin: 5px;
-   color: #eaeaea;
-   background-color: #656565;
+   color: #e0e0e0;
+   background-color: #494949;
 }
 
 .operator {
-   background-color: #8f5496;
+   background-color: #357eb2;
 }
 
 .equals {
    width: 360px;
-   border-radius: 50px;
-   background-color: #8f5496;
+   border-radius: 5px;
+   background-color: #357eb2;
 }
 
 p {
-   color: #eaeaea;
+   color: #494949;
    text-align: right;
-   margin: 5px;
+   margin: 0;
 }
 
 #current-number {
-   font-size: 60px;
+   font-size: 65px;
+   margin-right: 5px;
+   margin-top: -10px;
 }
 
 #previous-number {
    font-size: 27px;
    margin-right: 8px;
+   font-weight: 500;
 }
